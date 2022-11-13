@@ -1,0 +1,47 @@
+.header-positioning {
+    padding: 24px 0;
+    border-bottom: solid 1px #ececec;
+}
+
+.nav-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-line .logo-font {
+    flex-basis: 145px;
+    margin-right: 93px;
+}
+
+.pages-box {
+    display: flex;
+    gap: 30px;
+}
+
+.link-contacts svg {
+    margin-right: 10px;
+}
+
+.envelope-icon {
+    width: 16px;
+    height: 12px;
+    fill: #757575;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.smartphone-icon {
+    width: 10px;
+    height: 16px;
+    fill: #757575;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-contacts:hover .envelope-icon,
+.link-contacts:focus .envelope-icon,
+.link-contacts:hover .smartphone-icon,
+.link-contacts:focus .smartphone-icon {
+    fill: var(--color-blue);
+}
