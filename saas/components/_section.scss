@@ -1,24 +1,26 @@
-.section-dark {
-    color: #ffffff;
-    background-color: #2f303a;
-}
+.section {
+    &-positioning {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 
-.section-gray {
-    background-color: #f5f4fa;
-}
+    &--dark {
+        color: #ffffff;
+        background-color: #2f303a;
+    }
 
-.section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: center;
-    margin-bottom: 50px;
-}
+    &--gray {
+        background-color: #f5f4fa;
+    }
 
-.section-positioning {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    &-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: center;
+        margin-bottom: 50px;
+    }
 }
 
 .qualities.section-positioning {

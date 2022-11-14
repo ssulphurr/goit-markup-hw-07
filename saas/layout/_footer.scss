@@ -3,7 +3,7 @@
     padding-bottom: 60px;
 }
 
-.footer-box {
+.footer__box {
     display: flex;
     flex-direction: column;
     gap: 9px;
@@ -19,16 +19,16 @@
     justify-content: space-between;
 }
 
-.contacts {
+.footer__contacts {
     display: block;
     width: 231px;
 }
 
-.join-us {
+.join {
     width: 206px;
 }
 
-.join-us p {
+.join__text{
     text-transform: uppercase;
     margin-bottom: 20px;
 
@@ -37,14 +37,7 @@
     letter-spacing: 0.03em;
 }
 
-.join-icons-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-}
-
-.join-item {
+.join__item {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -53,7 +46,7 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.join-item:hover {
+.join__item:hover {
     background-color: var(--color-blue);
 }
 

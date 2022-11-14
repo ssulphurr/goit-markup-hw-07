@@ -27,20 +27,20 @@
     <header class="header-positioning">
       <div class="container nav-line">
         <nav class="nav-line">
-          <a class="logo-font" href="./index.html"
+          <a class="logo-font nav-line__logo-font" href="./index.html"
             ><span style="color: var(--color-blue)">Web</span>Studio</a
           >
-          <ul class="list pages-box">
+          <ul class="list nav-line__pages-box">
             <li><a class="link" href="./index.html">Cтудія</a></li>
             <li>
-              <a class="link link-opened-page" href="./portfolio.html">Портфоліо</a>
+              <a class="link link--opened-page" href="./portfolio.html">Портфоліо</a>
             </li>
             <li><a class="link" href="#contacts">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="list pages-box">
+        <ul class="list nav-line__pages-box">
           <li>
-            <a class="link link-contacts" href="mailto:info@example.com">
+            <a class="link nav-line__contacts" href="mailto:info@example.com">
               <svg class="envelope-icon">
                 <use href="./images/icons.svg#icon-envelope-1"></use>
               </svg>
@@ -48,8 +48,8 @@
             </a>
           </li>
           <li>
-            <a class="link link-contacts" href="tel:+380961111111">
-              <a class="link link-contacts" href="tel:+380961111111">
+            <a class="link nav-line__contacts" href="tel:+380961111111">
+              <a class="link nav-line__contacts" href="tel:+380961111111">
                 <svg class="smartphone-icon">
                   <use href="./images/icons.svg#icon-smartphone-1"></use>
                 </svg>
@@ -203,14 +203,14 @@
       </section>
     </main>
 
-    <footer class="section-dark footer-positioning">
+    <footer class="section--dark footer-positioning">
       <div class="container footer-flex">
         <div class="contacts">
         <a class="logo-font logo-footer" href="./index.html"
           ><span style="color: var(--color-blue)">Web</span>Studio</a
         >
         <address id="contacts">
-          <ul class="list footer-box">
+          <ul class="list footer__box">
             <li>
               <a
                 class="link"
@@ -220,32 +220,32 @@
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li><a class="link-transp" href="mailto:info@example.com">info@example.com</a></li>
-            <li><a class="link-transp" href="tel:+380961111111">+38 099 111 11 11</a></li>
+            <li><a class="link--transp" href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="link--transp" href="tel:+380961111111">+38 099 111 11 11</a></li>
           </ul>
         </address>
         </div>
-        <div class="join-us">
+        <div class="join">
           <p>Приєднуйтеся</p>
-          <ul class="list join-icons-box">
-            <li class="join-item"><a class="icon-link" href="">
+          <ul class="list icon__box">
+            <li class="join__item"><a class="icon__link" href="">
                 <svg class="join-icon">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a></li>
-            <li class="join-item"><a class="icon-link" href="">
+            <li class="join__item"><a class="icon__link" href="">
                 <svg class="join-icon">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a></li>
-            <li class="join-item"><a class="icon-link" href="">
+            <li class="join__item"><a class="icon__link" href="">
                 <svg class="join-icon">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a></li>
-            <li class="join-item"><a class="icon-link" href="">
+            <li class="join__item"><a class="icon__link" href="">
                 <svg class="join-icon">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
+                  <use href="./images/icons.svg#icon__linkedin"></use>
                 </svg>
               </a>
             </li>
@@ -253,9 +253,9 @@
         </div>
         <div class="mailing">
           <form>
-            <label for="mailing-email">Підпишіться на розсилку</label>
-            <div class="mailing-form">
-              <input type="email" id="mailing-email" name="mailing-email" placeholder="E-mail">
+            <label for="mailing__email">Підпишіться на розсилку</label>
+            <div class="mailing__form">
+              <input type="email" id="mailing__email" name="mailing__email" placeholder="E-mail">
               <button type="submit" class="button button-with-icon">Підписатися
                 <svg class="icon-send">
                   <use href="./images/icons.svg#icon-send"></use>

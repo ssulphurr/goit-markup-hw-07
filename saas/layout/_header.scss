@@ -9,17 +9,17 @@
     justify-content: space-between;
 }
 
-.nav-line .logo-font {
+.nav-line__logo-font {
     flex-basis: 145px;
     margin-right: 93px;
 }
 
-.pages-box {
+.nav-line__pages-box {
     display: flex;
     gap: 30px;
 }
 
-.link-contacts svg {
+.nav-line__contacts svg {
     margin-right: 10px;
 }
 
@@ -39,9 +39,9 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-contacts:hover .envelope-icon,
-.link-contacts:focus .envelope-icon,
-.link-contacts:hover .smartphone-icon,
-.link-contacts:focus .smartphone-icon {
+.nav-line__contacts:hover .envelope-icon,
+.nav-line__contacts:focus .envelope-icon,
+.nav-line__contacts:hover .smartphone-icon,
+.nav-line__contacts:focus .smartphone-icon {
     fill: var(--color-blue);
 }
